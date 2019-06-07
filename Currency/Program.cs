@@ -34,17 +34,18 @@ namespace Currency
             // Format total as different currencies
             // Method for us format found here: https://www.howtogeek.com/howto/programming/format-a-string-as-currency-in-c/
             // Method for other formats found here: https://stackoverflow.com/questions/35499585/string-format-for-japanese-currency
+            // Method for thai found here
             string usa = String.Format("US: {0:c}", total);
             string sw = total.ToString("C", new CultureInfo("sv-SE"));
             string jp = total.ToString("C", new CultureInfo("ja-JP"));
-            string thai = total.ToString("C", new CultureInfo("th-TH"));
+            string thai = total.ToString("#,##0.00");
 
 
 
             Console.WriteLine(usa);
             Console.WriteLine("Sweden: " + sw);
             Console.WriteLine("Japan: " + jp);
-            Console.WriteLine("Thai: " + thai);
+            Console.WriteLine("Thai: ฿" + thai);
         }
     }
 }
