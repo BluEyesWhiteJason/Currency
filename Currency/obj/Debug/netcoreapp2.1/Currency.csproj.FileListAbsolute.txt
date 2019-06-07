@@ -1,0 +1,11 @@
+/Users/jason/Projects/Currency/Currency/obj/Debug/netcoreapp2.1/Currency.csprojAssemblyReference.cache
+/Users/jason/Projects/Currency/Currency/obj/Debug/netcoreapp2.1/Currency.csproj.CoreCompileInputs.cache
+/Users/jason/Projects/Currency/Currency/obj/Debug/netcoreapp2.1/Currency.AssemblyInfoInputs.cache
+/Users/jason/Projects/Currency/Currency/obj/Debug/netcoreapp2.1/Currency.AssemblyInfo.cs
+/Users/jason/Projects/Currency/Currency/bin/Debug/netcoreapp2.1/Currency.deps.json
+/Users/jason/Projects/Currency/Currency/bin/Debug/netcoreapp2.1/Currency.runtimeconfig.json
+/Users/jason/Projects/Currency/Currency/bin/Debug/netcoreapp2.1/Currency.runtimeconfig.dev.json
+/Users/jason/Projects/Currency/Currency/bin/Debug/netcoreapp2.1/Currency.dll
+/Users/jason/Projects/Currency/Currency/bin/Debug/netcoreapp2.1/Currency.pdb
+/Users/jason/Projects/Currency/Currency/obj/Debug/netcoreapp2.1/Currency.dll
+/Users/jason/Projects/Currency/Currency/obj/Debug/netcoreapp2.1/Currency.pdb

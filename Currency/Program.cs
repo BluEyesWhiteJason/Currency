@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace Currency
 {
@@ -31,18 +32,19 @@ namespace Currency
             Console.WriteLine("The lowest value entered is $" + Math.Round(values[0], 2));
 
             // Format total as different currencies
-            // Method for format found here: https://www.howtogeek.com/howto/programming/format-a-string-as-currency-in-c/
-            string usa = String.Format("US: {0:C}", total);
-            string sw = String.Format("Sweden: {0:C} kr", total);
-            string jp = String.Format("Japan: ￥{0:C}", total);
-            string thai = String.Format("Thailand: ฿{0:C}", total);
+            // Method for us format found here: https://www.howtogeek.com/howto/programming/format-a-string-as-currency-in-c/
+            // Method for other formats found here: https://stackoverflow.com/questions/35499585/string-format-for-japanese-currency
+            string usa = String.Format("US: {0:c}", total);
+            string sw = total.ToString("C", new CultureInfo("sv-SE"));
+            string jp = total.ToString("C", new CultureInfo("ja-JP"));
+            string thai = total.ToString("C", new CultureInfo("th-TH"));
 
 
 
             Console.WriteLine(usa);
-            Console.WriteLine(sw);
-            Console.WriteLine(jp);
-            Console.WriteLine(thai);
+            Console.WriteLine("Sweden: " + sw);
+            Console.WriteLine("Japan: " + jp);
+            Console.WriteLine("Thai: " + thai);
         }
     }
 }
