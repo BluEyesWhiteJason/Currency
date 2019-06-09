@@ -1,8 +1,20 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{FC27748A-57ED-47A6-94BD-AD7875703CD5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Currency/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Currency Status">
     <Files>
-      <File FileName="Currency/Program.cs" Line="39" Column="38" />
+      <File FileName="Currency/Program.cs" Line="23" Column="1" />
+      <File FileName="Currency Status" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Currency" expanded="True">
+            <Node name="Currency" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Currency PreferredExecutionTarget="MonoDevelop.Default" />
